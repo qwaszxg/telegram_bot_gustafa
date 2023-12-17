@@ -77,7 +77,6 @@ def main():
     message_handler(BUTTON_PUER, cat_puer)
     message_handler(PUER_HOME, puer_home_tea)
 
-
     updater.start_polling(poll_interval=0.1)
     updater.idle()
 
